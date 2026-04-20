@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 
-const JWT_SECRET = process.env.JWT_SECRET || 'kairo-scope-secret-key-2024';
+const JWT_SECRET = process.env.JWT_SECRET || 'kairoscope2024';
 
 function authenticate(req, res, next) {
   const authHeader = req.headers.authorization;
